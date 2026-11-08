@@ -10,4 +10,6 @@ permalink: /notebooks/programming/
 
 Notes on programming languages, software, algorithms and useful technical concepts.
 
-<p class="coming-soon">Notes will appear here as this notebook grows.</p>
+<ul class="notebook-list">
+  <li><a href="{{ '/notes/programming/cpp-copying/' | relative_url }}">How copying works in C++</a></li>
+</ul>
