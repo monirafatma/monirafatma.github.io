@@ -162,6 +162,51 @@ a {
   font: inherit;
 }
 
+/* Tables: clear column structure, comfortable spacing and subtle separators. */
+.content table {
+  width: 100%;
+  margin: 28px 0 32px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.content th,
+.content td {
+  padding: 12px 16px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #deded7;
+}
+
+.content th {
+  color: #30342f;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  border-bottom: 2px solid #cfd5cc;
+}
+
+.content td:first-child,
+.content th:first-child {
+  padding-left: 0;
+}
+
+.content td:last-child,
+.content th:last-child {
+  padding-right: 0;
+}
+
+.content tr:last-child td {
+  border-bottom: 0;
+}
+
+.content td code,
+.content th code {
+  white-space: nowrap;
+}
+
 /* Rouge syntax colours (used by GitHub Pages' built-in highlighter). */
 .highlight .c,
 .highlight .c1,
@@ -242,5 +287,19 @@ a {
   .content pre {
     padding: 18px;
     font-size: 12.5px;
+  }
+
+  .content table {
+    display: block;
+    overflow-x: auto;
+    font-size: 14px;
+    white-space: normal;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .content th,
+  .content td {
+    min-width: 150px;
+    padding: 10px 12px;
   }
 }
