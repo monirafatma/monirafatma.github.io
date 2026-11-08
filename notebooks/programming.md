@@ -16,4 +16,5 @@ Notes on programming languages, software, algorithms and useful technical concep
   <li><a href="{{ '/notes/programming/pointers/' | relative_url }}">Pointers</a></li>
   <li><a href="{{ '/notes/programming/references/' | relative_url }}">References</a></li>
   <li><a href="{{ '/notes/programming/inline-functions/' | relative_url }}">Inline Functions</a></li>
+  <li><a href="{{ '/notes/programming/cpp-const-qualifier/' | relative_url }}">C++ Const Qualifier</a></li>
 </ul>
