@@ -10,4 +10,6 @@ permalink: /notebooks/quant-finance/
 
 Notes on quantitative finance, financial mathematics, pricing models and related topics.
 
-<p class="coming-soon">Notes will appear here as this notebook grows.</p>
+<ul class="notebook-list">
+  <li><a href="{{ '/notebooks/quant-finance/var/' | relative_url }}">VaR</a></li>
+</ul>
