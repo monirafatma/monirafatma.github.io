@@ -38,7 +38,7 @@ Here, the object d2 is being created and initiliazed as d1 at the same time. Jus
 
 ### Copy Constructor
 
-Let’s say you have a user-defined object dist1 and you wish to create another object that has its member variables the same as dist1 i.e. we want each member variable of dist1 copied to dist2. This is where the copy constructor comes into use. This is where the copy constructor comes into use.
+Let’s say you have a user-defined object dist1 and you wish to create another object that has its member variables the same as dist1 i.e. we want each member variable of dist1 copied to dist2. This is where the copy constructor comes into use.
 
 ```cpp
 //copy constructor
