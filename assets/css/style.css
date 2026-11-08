@@ -110,6 +110,122 @@ a {
   border-top: 1px solid var(--line);
 }
 
+/* Inline code: a quiet highlight within regular prose. */
+.content :not(pre) > code {
+  padding: 0.12em 0.38em;
+  border: 1px solid #e2e8e1;
+  border-radius: 4px;
+  background: #edf1eb;
+  color: #365344;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 0.86em;
+}
+
+/* Fenced code: a separate dark panel, visually distinct from the article. */
+.content div.highlighter-rouge,
+.content figure.highlight,
+.content pre {
+  max-width: 100%;
+}
+
+.content div.highlighter-rouge,
+.content figure.highlight {
+  margin: 26px 0 30px;
+  overflow: hidden;
+  border: 1px solid #292d34;
+  border-radius: 7px;
+  background: #171a20;
+}
+
+.content div.highlighter-rouge pre,
+.content figure.highlight pre,
+.content pre {
+  margin: 0;
+  padding: 22px 24px;
+  overflow-x: auto;
+  background: #171a20;
+  color: #e6e8eb;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 13.5px;
+  line-height: 1.7;
+  tab-size: 4;
+  -webkit-overflow-scrolling: touch;
+}
+
+.content div.highlighter-rouge code,
+.content figure.highlight code,
+.content pre code {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}
+
+/* Rouge syntax colours (used by GitHub Pages' built-in highlighter). */
+.highlight .c,
+.highlight .c1,
+.highlight .cm,
+.highlight .cp,
+.highlight .cs {
+  color: #89939f;
+  font-style: italic;
+}
+
+.highlight .k,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt {
+  color: #c792ea;
+}
+
+.highlight .nf,
+.highlight .fm {
+  color: #82aaff;
+}
+
+.highlight .nc,
+.highlight .nn {
+  color: #ffcb6b;
+}
+
+.highlight .s,
+.highlight .s1,
+.highlight .s2,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .sh,
+.highlight .si,
+.highlight .sr {
+  color: #c3e88d;
+}
+
+.highlight .m,
+.highlight .mi,
+.highlight .mf,
+.highlight .mh,
+.highlight .mo {
+  color: #f78c6c;
+}
+
+.highlight .o,
+.highlight .ow {
+  color: #89ddff;
+}
+
+.highlight .na,
+.highlight .nb,
+.highlight .no {
+  color: #ffcb6b;
+}
+
+.highlight .p {
+  color: #d6deeb;
+}
+
 @media (max-width: 560px) {
   .site-header {
     align-items: flex-start;
@@ -119,5 +235,12 @@ a {
 
   .content {
     padding-top: 54px;
+  }
+
+  .content div.highlighter-rouge pre,
+  .content figure.highlight pre,
+  .content pre {
+    padding: 18px;
+    font-size: 12.5px;
   }
 }
