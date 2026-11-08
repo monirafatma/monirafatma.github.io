@@ -1,0 +1,12 @@
+title: "Monira's Notebook"
+description: "A personal collection of notes, ideas and explanations."
+url: "https://monirafatma.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
