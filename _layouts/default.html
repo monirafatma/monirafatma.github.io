@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <span class="site-caption">A personal knowledge library</span>
+    </header>
+
+    <main class="content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <span>Made for collecting and connecting ideas.</span>
+    </footer>
+  </div>
+</body>
+</html>
