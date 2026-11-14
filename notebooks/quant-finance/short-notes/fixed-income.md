@@ -4,7 +4,7 @@ title: Fixed Income
 permalink: /notebooks/quant-finance/short-notes/fixed-income/
 ---
 
-
+# Fixed Income
 
 ## 1. Valuation & Yield Measures
 
