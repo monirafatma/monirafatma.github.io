@@ -9,50 +9,9 @@
   <script>
     window.MathJax = {
       tex: {
-        inlineMath: [['
-</head>
-<body>
-  <div class="site-shell">
-    <header class="site-header">
-      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <span class="site-caption">A personal knowledge library</span>
-    </header>
-
-    <main class="content">
-      {{ content }}
-    </main>
-
-    <footer class="site-footer">
-      <span>Made for collecting and connecting ideas.</span>
-    </footer>
-  </div>
-</body>
-</html>
-, '
-</head>
-<body>
-  <div class="site-shell">
-    <header class="site-header">
-      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <span class="site-caption">A personal knowledge library</span>
-    </header>
-
-    <main class="content">
-      {{ content }}
-    </main>
-
-    <footer class="site-footer">
-      <span>Made for collecting and connecting ideas.</span>
-    </footer>
-  </div>
-</body>
-</html>
-], ['\\(', '\\)']],
-        displayMath: [['$', '$'], ['\\[', '\\]']],
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
         processEscapes: true
-      },
-      options: {
-        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
       }
     };
   </script>
