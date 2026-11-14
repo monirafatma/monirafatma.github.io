@@ -14,11 +14,9 @@ permalink: /notebooks/quant-finance/short-notes/fixed-income/
   IRR of a bond.  
   Bond price is observed in the market & ytm is implied from it.
 
-$$
-  \mathrm{NPV}=0\;\Rightarrow\;\mathrm{Price}=\sum_{i=1}^{n-1}\frac{\mathrm{Coupon}_i}{(1+\mathrm{ytm})^i}+\frac{1000+\mathrm{coupon}}{(1+\mathrm{ytm})^n}
-  
-
-$$
+\begin{equation}
+\mathrm{NPV}=0\;\Rightarrow\;\mathrm{Price}=\sum_{i=1}^{n-1}\frac{\mathrm{Coupon}_i}{(1+\mathrm{ytm})^i}+\frac{1000+\mathrm{coupon}}{(1+\mathrm{ytm})^n}
+\end{equation}
 - YTM is quoted as an annualized rate  
   → It is annualized return that we will get if we hold the bond till maturity & do not sell in between.
 - **Price Vs Value**  
