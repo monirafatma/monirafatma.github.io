@@ -6,31 +6,6 @@
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
   <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <script>
-    window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']],
-        processEscapes: true
-      },
-      startup: { typeset: true }
-    };
-    (function () {
-      function loadMathJax(src, fallback) {
-        var script = document.createElement('script');
-        script.src = src;
-        script.async = true;
-        script.onerror = function () {
-          if (fallback) loadMathJax(fallback);
-        };
-        document.head.appendChild(script);
-      }
-      loadMathJax(
-        'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js',
-        'https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js'
-      );
-    })();
-  </script>
 </head>
 <body>
   <div class="site-shell">
