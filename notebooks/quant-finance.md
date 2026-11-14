@@ -13,4 +13,5 @@ Notes on quantitative finance, financial mathematics, pricing models and related
 <ul class="notebook-list">
   <li><a href="{{ '/notebooks/quant-finance/mpt-and-capm/' | relative_url }}">MPT and CAPM</a></li>
   <li><a href="{{ '/notebooks/quant-finance/var/' | relative_url }}">VaR</a></li>
+  <li><a href="{{ '/notebooks/quant-finance/short-notes/' | relative_url }}">Short Notes</a></li>
 </ul>
