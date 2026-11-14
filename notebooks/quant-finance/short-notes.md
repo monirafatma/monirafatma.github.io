@@ -9,3 +9,7 @@ permalink: /notebooks/quant-finance/short-notes/
 # Short Notes
 
 Brief notes on quantitative finance concepts, formulas and ideas.
+
+## Notes
+
+- [Fixed Income]({{ '/notebooks/quant-finance/short-notes/fixed-income/' | relative_url }})
