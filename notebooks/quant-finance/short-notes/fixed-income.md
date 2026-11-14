@@ -4,6 +4,19 @@ title: Fixed Income
 permalink: /notebooks/quant-finance/short-notes/fixed-income/
 ---
 
+
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],
+    displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],
+    processEscapes: true
+  },
+  options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
 ## 1. Valuation & Yield Measures
 
 - **Internal Rate of Return (IRR)**  
